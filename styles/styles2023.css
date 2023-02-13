@@ -216,12 +216,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: var(--gap-xsm);
-}
-@media (max-width: 768px) {
-  .hb-wrapper .hb-popular-categories__holder {
-    justify-content: center;
-    align-items: center;
-  }
+  justify-content: center;
+  align-items: center;
 }
 .hb-wrapper .hb-popular-categories__link {
   font-size: 20px;
